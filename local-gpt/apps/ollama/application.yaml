@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: ollama
-        image: ollama/ollama:latest
+        image: alpine/ollama
         ports:
         - containerPort: 11434
         volumeMounts:
